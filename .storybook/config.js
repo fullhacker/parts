@@ -1,9 +1,11 @@
 import { addParameters, configure } from '@storybook/html';
+import { themes } from '@storybook/theming';
 
 // set options
 addParameters({
     options: {
-        name: "Full Hacker Parts"
+        name: "Full Hacker Parts",
+        // theme: themes.dark
     }
 });
 
