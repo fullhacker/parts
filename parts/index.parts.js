@@ -1,13 +1,9 @@
+import { Button } from '../src/';
+
 export default {
-  title: 'Demo',
+  title: 'Parts',
 };
 
-export const heading = () => '<h1>Hello World</h1>';
+// export const title = () => '<h1>Hello World</h1>';
 
-export const button = () => {
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.innerText = 'Hello Button';
-  btn.addEventListener('click', e => console.log(e));
-  return btn;
-};
+export const button = () => Button('Hello Button', (e) => alert('Hello!'));
