@@ -1,4 +1,11 @@
-import { configure } from '@storybook/html';
+import { addParameters, configure } from '@storybook/html';
+
+// set options
+addParameters({
+    options: {
+        name: "Full Hacker Parts"
+    }
+});
 
 // automatically import all files ending in *.stories.js
-configure(require.context('../src', true, /\.stories\.js$/), module);
+configure(require.context('../parts', true, /\.parts\.js$/), module);
