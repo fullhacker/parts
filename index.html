@@ -5,11 +5,17 @@
     <title>FH Parts Demo Usage</title>
     <link rel="icon" href="public/favicon.ico" />
     <script type="module" src="src/fh-parts.js"></script>
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
+    <script src="callbacks.js"></script>
 </head>
 <body>
     <h1>Full Hacker Parts Demo</h1>
-    <fh-btn click="clickCallback">hack this</fh-btn>
-    <fh-btn click="clickCallback2">hack this 2</fh-btn>
+
+    <h2>Add Parts using mark-up</h2>
+    <fh-btn click="clickCallback">Hack this 1</fh-btn>
+    <fh-btn click="clickCallback2">Hack this 2</fh-btn>
+
+    <h2>Add Parts using Javascript</h2>
+    <span id="app-wrapper">Loading...</span>
 </body>
 </html>

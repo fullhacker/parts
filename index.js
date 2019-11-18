@@ -1,3 +1,9 @@
-clickCallback = () => alert('button clicked!');
+import { Button, Navigation } from './src/components/index.js';
 
-clickCallback2 = () => alert('second button clicked!');
+const wrapper = document.getElementById('app-wrapper');
+const btn = Button('Hack this 3', (e) => alert('Third button clicked'));
+const nav = Navigation();
+
+wrapper.innerHTML = '';
+wrapper.appendChild(nav);
+wrapper.appendChild(btn);
