@@ -6,8 +6,8 @@
   "scripts": {
     "start": "http-server .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public -c .storybook"
+    "storybook": "start-storybook -p 6006 -s .storybook/assets",
+    "build-storybook": "build-storybook -s .storybook/assets -c .storybook"
   },
   "keywords": [],
   "author": "",
