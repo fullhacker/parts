@@ -1,4 +1,4 @@
-import { Button } from './components/index.js';
+import { Button } from './web/index.js';
 
 export const FHParts = function() {
 

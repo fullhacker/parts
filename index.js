@@ -1,4 +1,4 @@
-import { Button, Navigation } from './src/components/index.js';
+import { Button, Navigation } from './src/web/index.js';
 
 const wrapper = document.getElementById('app-wrapper');
 const btn = Button('Hack this 3', (e) => alert('Third button clicked'));

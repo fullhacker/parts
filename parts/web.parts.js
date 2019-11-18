@@ -1,7 +1,7 @@
-import { Button, Navigation } from '../src/components/';
+import { Button, Navigation } from '../src/web/';
 
 export default {
-  title: 'Parts',
+  title: 'Web',
 };
 
 // export const title = () => '<h1>Hello World</h1>';
